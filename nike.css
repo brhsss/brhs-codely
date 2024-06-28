@@ -1,0 +1,42 @@
+header {
+    position: fixed;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    margin-top: 10px;
+    width: 100vw;
+}
+.ahh {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    
+}
+#uu {
+    margin: 0px;
+    padding: 0px;
+    
+}
+body {
+    margin: 0px;
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+footer {
+    color: white;
+    background-color: rgb(68, 68, 173);
+    text-align: center;
+    padding: 30px;
+}

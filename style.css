@@ -1,0 +1,38 @@
+html{
+    font-size: 30px;
+}
+h1 {
+    color:rgb(230, 115, 214);
+    text-align: center;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(173, 118, 224);
+}
+#uniq {
+   color:rgb(90, 169, 205);
+}
+
+ p {
+    color: rgb(0, 0, 0);
+}
+
+.neg {
+    text-align: center;
+}
+
+.ll {
+    text-align: center;
+}
+
+.lor {
+    color: rgb(0, 0, 0);
+    background-color: lightblue;
+    border-radius: 30px;
+    border: 30px;
+    border-color: lightseagreen;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
