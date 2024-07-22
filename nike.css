@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-around;
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 100vw;
+
 }
 
 header {
@@ -10,7 +11,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
-    
+    z-index: 50;
 }
 
 #menu {
@@ -18,7 +19,16 @@ header {
     justify-content: flex-end;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+p, h2{
+    font-size: 20px;
+}
 #minii {
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,12 +55,12 @@ header a {
 
 .nuur {
     margin-top: 40px;
-    height: 350px;
+    height: 400px;
 }
 
 
 #uu {
-    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-bottom:0 ;
 }
@@ -61,52 +71,256 @@ header a {
     text-align: center;
 }
 
-.btn p {
+.btn a {
     width: 50px;
     background: black;
     color: white;    
     margin-top: 20px;
     margin-bottom: 40px;
-    padding: 5px;
-    border-radius: 20%;
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 30%;
     text-align: center;
+    text-decoration: none;
+    
 }
+
 
 .btn {
     display:flex ;
     justify-content: center;
 }
+.btn2 {
+    display:flex ;
+    justify-content: center;
+}
 
-.im {
+.card-link {
+    position: relative;
+   
+}
+.card-links{
     display: flex;
-    
 }
-.im2 {
-    display: flex;
-    
+.imgWidth{
+     width: 50vw;
+     height: 100%;
+     object-fit: cover;
+     
+}
+.text{
+    position: relative;
+    bottom: 180px;
+    left: 50px;
+    color: white;
 }
 
-#uu {
-    font-size: 30px;
-    text-align: center;
-    margin-bottom:0 ;
-}
 
-.btn p {
-    width: 160px;
+
+.btn2 a{
+    width: 150px;
     background: black;
     color: white;    
     margin-top: 20px;
     margin-bottom: 40px;
-    padding: 5px;
-    border-radius: 20%;
+    padding: 10px;
+    border-radius: 30%;
     text-align: center;
+    text-decoration: none;
+    font-size: large;
 }
+
+#im3 {
+    width: 100vw;
+    
+}
+
+#gutal {
+    display: flex;
+    justify-content: space-around;
+}
+.gutal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gutal img {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.gutal h3 {
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+}
+
+.zurg3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card-link2 {
+    position: relative;
+   
+}
+.card-links2{
+    display: flex;
+    gap: 20px;
+ 
+}
+
+.imgWidth2{
+     width: 33vw;
+     display: flex;
+}
+.text2{
+    position: relative;
+    bottom: 180px;
+    left: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 
 
 footer {
-    color: white;
-    background-color: rgb(68, 68, 173);
-    text-align: center;
-    padding: 30px;
+    display:flex ;
+    justify-content: space-around;
+   
 }
+
+a:hover {
+    background-color: rgb(207, 207, 207);
+}
+header a:hover {
+    background-color: rgb(207, 207, 207);
+}
+.btn3 a:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+
+.btn3 a{
+    width: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);    
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 30%;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+}
+
+@media screen and (min-width: 320px)
+and (max-width: 480px) {
+    .nuur {
+        margin-top: 40px;
+        width: 100vw;
+    }
+    #uu {
+        text-align: center;
+        font-size: large;
+    }
+    #pra {
+        font-size: medium;
+    }
+    
+        .btn a {
+            width: 35px;
+            background: black;
+            color: white;    
+            margin-top: 10px;
+            margin-bottom: 15px;
+            padding: 5px;
+            padding-right: 8px;
+            border-radius: 30%;
+            text-align: center;
+            text-decoration: none;
+            font-size: small;
+        }
+
+        .card-links{
+            display: flex;
+            flex-wrap: wrap;
+    
+        }
+        .imgWidth{
+            width: 100vw;
+            object-fit: cover;
+        }
+        .btn2 a {
+            width: 80px;
+            background: black;
+            color: white;    
+            margin-top: 10px;
+            margin-bottom: 15px;
+            padding: 5px;
+            padding-right: 8px;
+            border-radius: 30%;
+            text-align: center;
+            text-decoration: none;
+            font-size: small;
+        }
+        #uu{
+            font-size: 30px;
+        }
+        #gt{
+            font-size: 30px;
+        }
+
+        #nk {
+            font-size: 30px;
+        }
+    
+    #gutal{
+        flex-direction: column;
+    }
+
+
+    .card-links2{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+       
+    }
+    .imgWidth2{    
+        width: 100vw;
+        height: 100%;
+       
+    }
+    footer  {
+        font-size: 20px;
+    }
+
+    footer  p{
+        font-size: 10px;
+    }
+#minii {
+    font-size: medium;
+}
+   #menu img{
+    width: 20px;
+    gap: 0px;
+   }
+
+   #logo a{
+    width: 15px;
+    margin-right: 20px;
+   }
+   #container {
+    width: 100vw;
+   }
+
+}
+
+
