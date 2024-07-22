@@ -1,38 +1,108 @@
-header {
-    position: fixed;
-    text-align: center;
-    color: black;
-    width: 100%;
-}
-header a {
-    text-decoration: none;
-    color: black;
-}
-img {
-    margin-top: 10px;
-    width: 100vw;
-}
-.ahh {
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    margin: 0px;
-    padding: 0px;
-    
-}
-#uu {
-    margin: 0px;
-    padding: 0px;
-    
-}
-body {
-    margin: 0px;
-}
 #container {
     display: flex;
     justify-content: space-around;
     background-color: rgb(255, 255, 255);
     width: 100%;
 }
+
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#minii {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+
+#search, #heart, #shop {
+    margin: 10px;
+}
+
+
+.nuur {
+    margin-top: 40px;
+    height: 350px;
+}
+
+
+#uu {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:0 ;
+}
+
+#pra {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.btn p {
+    width: 50px;
+    background: black;
+    color: white;    
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 5px;
+    border-radius: 20%;
+    text-align: center;
+}
+
+.btn {
+    display:flex ;
+    justify-content: center;
+}
+
+.im {
+    display: flex;
+    
+}
+.im2 {
+    display: flex;
+    
+}
+
+#uu {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:0 ;
+}
+
+.btn p {
+    width: 160px;
+    background: black;
+    color: white;    
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 5px;
+    border-radius: 20%;
+    text-align: center;
+}
+
 
 footer {
     color: white;
