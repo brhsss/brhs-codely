@@ -8,7 +8,7 @@
 
 header {
     background-color: white;
-    width: 100%;
+    width: 100%; 
     position: fixed;
     top: 0;
     z-index: 50;
@@ -97,10 +97,12 @@ header a {
 
 .card-link {
     position: relative;
+    /* width: 50vw; */
    
 }
 .card-links{
     display: flex;
+    width: 100vw;
 }
 .imgWidth{
      width: 50vw;
@@ -175,7 +177,7 @@ header a {
 }
 
 .imgWidth2{
-     width: 33vw;
+     width: 30vw;
      display: flex;
 }
 .text2{
@@ -321,6 +323,9 @@ and (max-width: 480px) {
     width: 100vw;
    }
 
+}
+main{
+    width: 100vw;
 }
 
 

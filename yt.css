@@ -1,0 +1,130 @@
+.nav {
+    background-color: aquamarine;
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    width: 100vw;
+   
+    
+}
+
+.ygan {
+    background-color: blueviolet;
+    height: 100vh;
+    width: 10vw;
+    position: fixed;
+    top: 10vh;
+    
+}
+.gol {
+    background-color: aqua;
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    
+}
+
+#ngoon   {
+    background-color: darkgreen;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+}
+#ngoonuud {
+    display: flex;
+    justify-content:  space-evenly;
+    background-color: aquamarine;
+    width: 100vw;
+    
+    
+}
+
+.saaral{
+    background-color: rgb(202, 196, 196);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: larger;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    height: 10vh;
+    width: 90vw;
+}
+
+
+.ehnii {
+    background-color:rgb(202, 196, 196);
+    height: 250px;
+    width: 320px;
+    display: flex;
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    
+}
+
+.ulbrshar {
+    background-color: orange;
+    height: 128px;
+    width: 288px;
+    display: flex;
+    justify-content:center; 
+    align-items:center ;
+    position: relative;
+    top: 16px;
+    left: 16px;
+}
+
+.shar {
+    background-color: gold;
+    height: 64px;
+    width: 288px;
+    display: flex;
+    justify-content:center; 
+    align-items:center ;
+    position: absolute;
+    top: 160px;
+    left: 16px;
+}
+
+.tsnher {
+    background-color: rgb(0, 174, 255);
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content:center; 
+    align-items:center ;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.desc {
+    background-color: rgb(196, 214, 223);
+    height: 48px;
+    width: 208px;
+    display: flex;
+    justify-content:center; 
+    align-items:center ;
+    position: absolute;
+    top: 8px;
+    left: 64px;
+}
+
+.vid {
+ display: flex;
+    gap: 100px  ;
+    flex-wrap: wrap;
+}
+.vid2 {
+ display: flex;
+ flex-wrap: wrap;
+    gap: 100px  ;
+}
+

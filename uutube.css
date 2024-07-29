@@ -1,0 +1,43 @@
+.nogoon{
+    background-color: green;
+    width: 100vw;
+    height: 50px;
+}
+.ygaan{
+    background-color: blueviolet;
+    width: 15vw;
+    height: 500px;
+
+}
+.saaral{
+    background-color: gray;
+    height: 50px;
+    width: 85vw;
+
+}
+.purple{
+    height: 500px;
+    width: 85vw;
+    background-color: purple;
+}
+.huree{
+    display: flex;
+ 
+}
+.nn{
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+}
+
+
+
+.ehnii {
+    background-color:rgb(202, 196, 196);
+    height: 150px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+    top: 25vh;
+    left: 15vw;
+}
